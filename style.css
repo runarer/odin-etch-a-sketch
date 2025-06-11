@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.etch-grid {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    height: 908px;
+}
