@@ -10,5 +10,18 @@ body {
     display: flex;
     flex-direction: column;
     width: 980px;
-    height: 908px;
+    height: 980px;
+}
+
+.etch-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+.etch-square {
+    /* display: flex; */
+    border: 1px solid red;
+    display: flex;
+    flex: 1;
 }
