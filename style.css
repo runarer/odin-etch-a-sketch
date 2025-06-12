@@ -32,7 +32,8 @@ body {
 
 .etch-square {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex: 1;
+    opacity: 0;
 }
