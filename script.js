@@ -1,3 +1,7 @@
+function colorBackground(event) {
+    this.style.background = "blue";
+}
+
 function createGrid(size) {
     const etchGrid = document.querySelector(".etch-grid");
 
@@ -8,6 +12,8 @@ function createGrid(size) {
         for(let columnNr = 0; columnNr < size; columnNr++) {
             const etchSquare = document.createElement("div");
             etchSquare.classList.add("etch-square");
+            
+            etchSquare.addEventListener("mouseenter",colorBackground);
 
             etchRow.appendChild(etchSquare);
         }
